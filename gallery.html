@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <header>
+        <h1>Projects - Muhammad Kashif Pathan</h1>
+    </header>
+    <div class="gallery" id="gallery">
+        <!-- Small photos -->
+        <div class="photo" onclick="expandPhoto(1)"><img src="img/smokBg.jpg" alt="Photo 1"></div>
+        <div class="photo" onclick="expandPhoto(2)"><img src="img/IMG_20230921_135712.jpg" alt="Photo 2"></div>
+        <div class="photo" onclick="expandPhoto(3)"><img src="img/mypic.png" alt="Photo 3"></div>
+        <div class="photo" onclick="expandPhoto(3)"><img src="img/kashif.png" alt="Photo 4"></div>
+        <div class="photo" onclick="expandPhoto(3)"><img src="img/Picsart_23-04-25_10-48-16-592.jpg" alt="Photo 5"></div>
+        <div class="photo" onclick="expandPhoto(3)"><img src="img/Pathan.png" alt="Photo 6"></div>
+        <div class="photo" onclick="expandPhoto(3)"><img src="img/Pathan_calculated.png" alt="Photo 7"></div>
+        <div class="photo" onclick="expandPhoto(1)"><img src="img/smokBg.jpg" alt="Photo 1"></div>
+        <div class="photo" onclick="expandPhoto(2)"><img src="img/IMG_20230921_135712.jpg" alt="Photo 2"></div>
+        <div class="photo" onclick="expandPhoto(3)"><img src="img/mypic.png" alt="Photo 3"></div>
+        <div class="photo" onclick="expandPhoto(3)"><img src="img/kashif.png" alt="Photo 4"></div>
+        <div class="photo" onclick="expandPhoto(3)"><img src="img/Picsart_23-04-25_10-48-16-592.jpg" alt="Photo 5"></div>
+        <div class="photo" onclick="expandPhoto(3)"><img src="img/Pathan.png" alt="Photo 6"></div>
+        <div class="photo" onclick="expandPhoto(3)"><img src="img/Pathan_calculated.png" alt="Photo 7"></div>
+        
+        <!-- Add more photos as needed -->
+
+        <!-- Expanded photo container -->
+        <div class="expanded-container" id="expanded-container">
+            <span class="close-btn" onclick="closePhoto()">&times;</span>
+            <img class="expanded-photo" id="expanded-photo" src="" alt="Expanded Photo">
+            <button class="nav-btn" onclick="navigatePhotos(-1)">❮ Prev</button>
+            <button class="nav-btn" onclick="navigatePhotos(1)">Next ❯</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="left">Muhammad Kashif Pathan</div>
+        <div class="right">Copyright &copy; mkpsportfolio.com | All rights reserved</div>
+    </footer>
+</body>
+</html>
