@@ -1,7 +1,9 @@
 var typed = new Typed('#element', {
-    strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Photographer', 'Ethical Hacker'],
+    strings: ['Full Stack Developer.', 'Graphic Designer', 'Web Designer', 'Photographer', 'Ethical Hacker'],
     typeSpeed: 50,
+    loop: true, // Set loop to true for infinite loop
 });
+
 
 function showSidebar() {
     const sidebar = document.querySelector('.sidebar')
