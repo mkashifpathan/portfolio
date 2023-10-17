@@ -128,11 +128,6 @@ hr {
 
 }
 
-.all-about-me hr {
-    border: 1px solid rgb(241, 3, 3);
-    box-shadow: 2px 2px 5px rgb(241, 3, 3);
-}
-
 .information {
     background-color: #133250;
     max-width: 1920px;
@@ -148,45 +143,11 @@ hr {
     font-family: 'Noto Serif', serif;
 }
 
-#introduction hr {
-    width: 130px;
+.all-about-me h2 {
+    display: inline;
+    box-shadow: 0px 0px 3px 1px rgb(241, 3, 3);
+    border-bottom: 1.5px solid rgb(241, 3, 3);
 }
-
-.information hr {
-    width: 200px;
-    position: absolute;
-    text-align: start;
-}
-
-#venturing-into-programming hr {
-    width: 310px;
-}
-
-#skill-set hr {
-    width: 180px;
-}
-
-#certificates hr {
-    width: 118px;
-}
-
-#project-endeavors hr {
-    width: 195px;
-}
-
-
-#motivational-quote hr {
-    width: 207px;
-}
-
-#friendship-approach hr {
-    width: 258px;
-}
-
-#conclusion hr {
-    width: 114px;
-}
-
 
 .all-about-me p {
     margin-top: 40px;
