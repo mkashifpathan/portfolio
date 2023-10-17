@@ -141,10 +141,6 @@
 
 
 @media (max-width: 480px) {
-    #venturing-into-programming hr {
-        width: 144px;
-    }
-
     .first-section {
         height: 200px;
     }
