@@ -1,5 +1,5 @@
 var typed = new Typed('#element', {
-    strings: ['Full Stack Developer.', 'Graphic Designer', 'Web Designer', 'Photographer', 'Ethical Hacker'],
+    strings: ['Full Stack Developer', 'Graphic Designer', 'Web Designer', 'Photographer', 'Ethical Hacker'],
     typeSpeed: 50,
     loop: true, // Set loop to true for infinite loop
 });
