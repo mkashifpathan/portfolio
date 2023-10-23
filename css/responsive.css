@@ -21,6 +21,16 @@
 
 @media (max-width: 1100px) {
 
+    header,
+    nav {
+        height: 102px;
+    }
+
+    nav .left,
+    nav .right {
+        font-size: 26px;
+    }
+
     .my-name,
     .my-passion {
         font-size: 30px;
@@ -34,6 +44,14 @@
         font-weight: 900;
     }
 
+}
+
+@media (max-width: 850px) {
+    nav .left,
+    nav .right {
+        font-size: 23px;
+        margin-left: 42px;
+    }
 }
 
 @media (max-width: 762px) {
@@ -73,14 +91,27 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 755px) {
     header {
         height: 60px;
     }
 
     nav {
-        margin: 0 10px;
+        margin: 0 30px;
         height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .left {
+        margin: 0;
+        font-size: 26px;
+        letter-spacing: 3px;
+    }
+
+    nav .right {
+        height: 30px;
     }
 
     .hide-on-mobile {
@@ -142,6 +173,10 @@
 
 
 @media (max-width: 480px) {
+    nav .left {
+        font-size: 20px;
+    }
+
     .first-section {
         height: 200px;
     }
@@ -194,6 +229,13 @@
 
 
 @media (max-width: 400px) {
+    nav {
+        margin: 0 10px;
+    }
+    nav .left {
+        font-size: 18px;
+    }
+
     .sidebar {
         width: 100%;
     }
@@ -255,7 +297,8 @@
         position: relative;
     }
 
-    .my-name, .passion {
+    .my-name,
+    .passion {
         margin: 0;
     }
 
@@ -280,8 +323,8 @@
     footer .left {
         font-size: 10px;
     }
-    
-    footer .right{
+
+    footer .right {
         font-size: 8px;
     }
 }
