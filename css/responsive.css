@@ -23,7 +23,7 @@
 
     .my-name,
     .my-passion {
-        font-size: 28px;
+        font-size: 30px;
         margin-bottom: 10px;
         font-style: italic;
     }
@@ -36,15 +36,15 @@
 
 }
 
-@media (max-width: 755px) {
+@media (max-width: 762px) {
     .first-section {
-        height: 250px;
+        height: 225px;
         padding: 10px;
     }
 
-    /* .my-name,
+    .my-name,
     .my-passion {
-        font-size: 24px;
+        font-size: 26px;
         margin-bottom: 10px;
         font-style: italic;
     }
@@ -53,7 +53,7 @@
     #element {
         color: rgb(230, 64, 225);
         font-weight: 400;
-    } */
+    }
 
     .buttons {
         margin: 5px 0;
@@ -165,10 +165,6 @@
 
     .right-section img {
         width: 150px;
-    }
-
-    .information p {
-        font-size: 14px;
     }
 
     #introduction {
