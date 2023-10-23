@@ -38,11 +38,11 @@
 
 @media (max-width: 755px) {
     .first-section {
-        height: 225px;
+        height: 250px;
         padding: 10px;
     }
 
-    .my-name,
+    /* .my-name,
     .my-passion {
         font-size: 24px;
         margin-bottom: 10px;
@@ -53,7 +53,7 @@
     #element {
         color: rgb(230, 64, 225);
         font-weight: 400;
-    }
+    } */
 
     .buttons {
         margin: 5px 0;
