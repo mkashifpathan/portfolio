@@ -68,10 +68,6 @@
         width: 200px;
     }
 
-    .information p {
-        font-size: 15px;
-    }
-
     footer {
         font-size: small;
     }
@@ -136,6 +132,7 @@
 
     .information p {
         margin-top: 20px;
+        font-size: 14px;
     }
 
     footer {
