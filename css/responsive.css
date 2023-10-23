@@ -166,6 +166,10 @@
         width: 150px;
     }
 
+    .information p {
+        font-size: 14px;
+    }
+
     #introduction {
         margin-top: 10px;
         font-size: 14px;
