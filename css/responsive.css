@@ -240,3 +240,48 @@
         font-size: x-small;
     }
 }
+
+@media (max-width: 340px) {
+    .first-section {
+        height: 306px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5px;
+    }
+
+    .left-section {
+        padding: 13px;
+        height: 270px;
+        position: relative;
+    }
+
+    .my-name, .passion {
+        margin: 0;
+    }
+
+    .typed-cursor {
+        display: none;
+    }
+
+    .buttons {
+        position: absolute;
+        bottom: 5px;
+    }
+
+    .information h2 {
+        font-size: 14px;
+    }
+
+    .information p {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+
+    footer .left {
+        font-size: 10px;
+    }
+    
+    footer .right{
+        font-size: 8px;
+    }
+}
