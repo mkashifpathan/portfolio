@@ -80,6 +80,7 @@ header nav ul li a:hover {
     font-size: 34px;
     margin-bottom: 10px;
     font-style: italic;
+    font-weight: bolder;
 }
 
 .purple,
