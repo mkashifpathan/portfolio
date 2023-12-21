@@ -2,6 +2,12 @@
     display: none;
 }
 
+#menu img {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
 .sidebar {
     padding: 10px;
     position: fixed;
@@ -229,6 +235,10 @@
         width: 100%;
     }
 
+    #menu img {
+        right: 10px;
+    }
+
     .first-section {
         height: 180px;
         padding: 0px;
@@ -310,10 +320,12 @@
 
     .information h2 {
         font-size: 14px;
+        font-size: 1rem;
     }
 
     .information p {
         font-size: 11px;
+        font-size: 0.8rem;
         margin-top: 10px;
     }
 

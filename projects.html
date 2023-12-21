@@ -4,15 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - Muhammad Kashif Pathan</title>
+    <title>Projects - Muhammad Kashif Pathan</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
     <header>
-        <h1>Projects - Muhammad Kashif Pathan</h1>
+        <nav>
+            <div class="left"> <a href="index.html">MKPathan's Portfolio</a></div>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()">
+                    <div class="left"><img src="img/icons8-close-30.png" alt="close"></div>
+                </li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">My Gallery</a></li>
+            </ul>
+
+            <div class="right">
+                <ul>
+                    <li class="hide-on-mobile"><a href="projects.html">Projects</a></li>
+                    <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
+                    <li class="hide-on-mobile"><a href="gallery.html">My Gallery</a></li>
+                    <li class="left" onclick="showSidebar()"><a href="#" id="menu"><img src="img/icons8-menu-50.png"
+                                alt="menu" width="30px"></a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
+        <h1>Projects - Muhammad Kashif Pathan</h1>
         <section id="project-1">
             <h2>Project Title 1</h2>
             <p>
@@ -71,6 +94,8 @@
             <div class="left">Muhammad Kashif Pathan</div>
             <div class="right">Copyright &copy; mkpsportfolio.com | All rights reserved</div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>

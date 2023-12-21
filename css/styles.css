@@ -41,7 +41,8 @@ nav .right {
     color: rgb(151, 136, 216);
     font-weight: 700;
     box-shadow: 2px 2px 5px rgb(241, 3, 3);
-    font-size: large;
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
 }
 
 .right ul {
@@ -59,8 +60,13 @@ a {
 
 header nav ul li a:hover {
     color: rgb(151, 136, 216);
-    font-size: 1.04rem;
     box-shadow: 1px 1px 1px 1px rgb(230, 64, 225);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.right ul .left #menu:hover {
+    padding: 0;
 }
 
 .first-section {
@@ -155,6 +161,7 @@ hr {
 .all-about-me p {
     margin-top: 20px;
     font-size: 15px;
+    font-size: 1rem;
 }
 
 h2 {
