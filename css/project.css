@@ -28,7 +28,7 @@ main h1 {
     margin: 20px;
 }
 
-section {
+article {
     max-width: 1920px;
     margin: 20px auto;
     padding: 20px;
@@ -72,6 +72,12 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.project-img img {
+    width: 195px;
+    object-fit: contain;
+    margin: 10px auto;
 }
 
 section li::before {
@@ -170,6 +176,10 @@ footer .left:hover {
 @media (max-width: 400px) {
     h1 {
         font-size: 17px;
+    }
+
+    main h1 {
+        margin: 10px;
     }
 
     p {
