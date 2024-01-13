@@ -16,8 +16,8 @@ body {
 
 main {
     border: 2px solid rgb(241, 3, 3);
-    border-radius: 10px;
     box-shadow: 5px 5px 20px 5px rgb(241, 3, 3);
+    border-radius: 10px;
     margin: 10px;
     padding: 10px;
 }
@@ -37,6 +37,9 @@ article {
     border: 1px solid #ddd;
     box-shadow: 5px 5px 20px 1px rgb(241, 3, 3);
     border-radius: 5px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Serif', serif;
 }
 
 h2 {
@@ -78,8 +81,13 @@ ul {
     width: 195px;
     object-fit: contain;
     margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px rgb(241, 3, 3);
 }
 
+.project-img .desktop-size-img {
+    width: 100%;
+}
 section li::before {
     content: '\2022';
     color: rgb(241, 3, 3);
