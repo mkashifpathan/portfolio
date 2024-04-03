@@ -10,6 +10,15 @@
     color: white;
 }
 
+:root {
+    --primary-color: rgb(230, 64, 225);
+    --secondary-color: rgb(241, 3, 3);
+}
+
+a:visited {
+    color: white;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #001f3f;
@@ -34,13 +43,13 @@ nav .right {
 
 .left {
     font-size: large;
-    text-shadow: rgb(241, 3, 3) 1px 2px;
+    text-shadow: var(--secondary-color) 1px 2px;
 }
 
 .left:hover {
     color: rgb(151, 136, 216);
     font-weight: 700;
-    box-shadow: 2px 2px 5px rgb(241, 3, 3);
+    box-shadow: 2px 2px 5px var(--secondary-color);
     padding: 1rem 0.5rem;
     border-radius: 1rem;
 }
@@ -60,7 +69,7 @@ a {
 
 header nav ul li a:hover {
     color: rgb(151, 136, 216);
-    box-shadow: 1px 1px 1px 1px rgb(230, 64, 225);
+    box-shadow: 1px 1px 1px 1px var(--primary-color);
     border-radius: 1rem;
     padding: 0.5rem 1rem;
 }
@@ -91,7 +100,7 @@ header nav ul li a:hover {
 
 .purple,
 #element {
-    color: rgb(230, 64, 225);
+    color: var(--primary-color);
     font-weight: 900;
 }
 
@@ -107,7 +116,7 @@ header nav ul li a:hover {
     margin: 5px;
     font-family: 'Merriweather', serif;
     font-family: 'Noto Serif', serif;
-    box-shadow: 2px 2px 5px rgb(241, 3, 3);
+    box-shadow: 2px 2px 5px var(--secondary-color);
     border-radius: 10px;
 }
 
@@ -117,32 +126,32 @@ header nav ul li a:hover {
 
 .right-section img {
     width: 250px;
-    box-shadow: 5px 5px 20px 1px rgb(230, 64, 225);
+    box-shadow: 5px 5px 20px 1px var(--primary-color);
     border-radius: 50%;
     position: relative;
     right: 10px;
 }
 
 hr {
-    border: 2px solid rgb(230, 64, 225);
+    border: 2px solid var(--primary-color);
     width: 90%;
-    box-shadow: 5px 5px 20px 1px rgb(230, 64, 225);
+    box-shadow: 5px 5px 20px 1px var(--primary-color);
     margin: 0 auto 30px auto;
 }
 
 .all-about-me {
     margin: 50px;
     padding: 10px;
-    border: 2px solid rgb(241, 3, 3);
+    border: 2px solid var(--secondary-color);
     border-radius: 30px 0;
-    box-shadow: 5px 5px 20px 5px rgb(241, 3, 3);
+    box-shadow: 5px 5px 20px 5px var(--secondary-color);
 }
 
 .information {
     background-color: #133250;
     max-width: 1920px;
-    box-shadow: 5px 5px 20px 1px rgb(230, 64, 225);
-    border: 2px solid rgb(230, 64, 225);
+    box-shadow: 5px 5px 20px 1px var(--primary-color);
+    border: 2px solid var(--primary-color);
     border-radius: 30px 0;
     margin: 30px auto;
     padding: 30px;
@@ -155,7 +164,7 @@ hr {
 
 .all-about-me h2 {
     display: inline;
-    border-bottom: 1.5px solid rgb(241, 3, 3);
+    border-bottom: 1.5px solid var(--secondary-color);
 }
 
 .all-about-me p {
