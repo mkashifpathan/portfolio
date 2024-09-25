@@ -25,7 +25,6 @@ main {
 }
 
 main h1 {
-    border-bottom: 2px solid rgb(241, 3, 3);
     display: inline-block;
     margin: 20px;
 }
@@ -47,11 +46,15 @@ section {
 h2 {
     color: #ffffff;
     display: inline-block;
-    border-bottom: 2px solid rgb(241, 3, 3);
     padding-bottom: 5px;
     margin-bottom: 15px;
     font-family: 'Merriweather', serif;
     font-family: 'Noto Serif', serif;
+    position: relative;
+}
+
+.hr-animate::after {
+    bottom: 10px;
 }
 
 form {

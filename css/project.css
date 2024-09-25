@@ -45,11 +45,14 @@ article {
 h2 {
     color: #ffffff;
     display: inline-block;
-    border-bottom: 2px solid rgb(241, 3, 3);
     padding-bottom: 5px;
     margin-bottom: 15px;
     font-family: 'Merriweather', serif;
     font-family: 'Noto Serif', serif;
+    position: relative;
+}
+.hr-animate::after {
+    bottom: 6px;
 }
 
 p {
@@ -64,7 +67,6 @@ p a {
 
 p a:hover {
     color: gray;
-    font-weight: bold;
 }
 
 p a:visited {
@@ -121,17 +123,20 @@ button {
     box-shadow: 2px 2px 5px rgb(241, 3, 3);
     border-radius: 1rem;
     font-size: 1rem;
+    transition: all 0.5s ease-in-out;
 }
 
 button a {
     text-decoration: none;
     color: white;
-    
+    transition: all 0.5s ease-in-out;
+
 }
 
 button:hover {
     font-weight: bold;
     color: #9db8d3;
+    transform: translate(1.2);
 }
 
 footer {
